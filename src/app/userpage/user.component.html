@@ -1,0 +1,96 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header card-header-icon card-header-rose">
+            <div class="card-icon">
+              <i class="material-icons">mail_outline</i>
+            </div>
+            <h4 class="card-title">Contact Me -
+              <small class="category">Send me a short Message</small>
+            </h4>
+          </div>
+          <div class="card-body">            
+            <form>              
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Name</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">E-mail</label>
+                    <input type="email" class="form-control">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Phone Number</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label class="bmd-label-floating">Subject</label>
+                    <input type="text" class="form-control">
+                  </div>
+                </div>
+              </div>              
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="form-group">
+                    <div class="form-group">
+                      <label class="bmd-label-floating"> Message</label>
+                      <textarea class="form-control" rows="5"></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>                
+                <button mat-raised-button type="submit" class="btn btn-rose pull-right"><a href="mailto:nguyenlexuanphuoc.210495@gmail.com">Send</a></button>                            
+              <div class="clearfix"></div>
+            </form>
+          </div>          
+        </div>
+      </div>      
+      <div class="col-md-4">
+        <div class="card card-profile">
+          <div class="card-avatar">
+            <a href="#">
+              <img class="img" src="./assets/img/faces/avatar-1.jpg" />
+            </a>
+          </div>
+          <div class="card-body">
+            <h6 class="card-category text-gray">Fresher</h6>
+            <h4 class="card-title">Nguyen Le Xuan Phuoc</h4>
+            <p class="card-description">
+              Before giving up, remember why you started
+            </p>
+            <a href="#" class="btn btn-rose btn-round">Hire Me Now</a>
+          </div>
+        </div>
+      </div>        
+    </div>
+    <div class="row">
+      <div class="col-md-7">
+        <div class="card">
+          <div class="card-header card-header-success card-header-icon">
+            <div class="card-icon">
+              <i class="material-icons">location_on</i>
+            </div>            
+          </div> 
+          <app-googlemaps></app-googlemaps>         
+        </div>        
+      </div>
+      <div class="col-md-5">
+        <!-- <div class="card"> -->
+          <app-wizard-cmp></app-wizard-cmp>
+        <!-- </div> -->
+      </div>      
+    </div>
+  </div>
+</div>

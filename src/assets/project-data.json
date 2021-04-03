@@ -1,0 +1,91 @@
+
+[
+   {
+      "id":1, 
+      "name":"Build Web Logistics application for import and export by air", 
+      "img": "assets/img/project-1.jpg",
+      "description": "Design and developed by me. To demonstrate my knowledge about angular, Spring framework and Spring boot technology, modeling platform microservices, mongoDB. And here is my graduation project.",
+      "link":"",
+      "view":"",
+      "type":"web",
+      "btom":"",
+      "dest":"h113"
+   },
+   {
+      "id":2, 
+      "name":"Application for detecting straight lines and circles Hough transformation", 
+      "img": "assets/img/project-2.jpg",
+      "description": "Design and developed by me. To demonstrate my knowledge about Python programming. Line detection app with Hough transform find Lanes for a self-driving car, circle detection app with Hough transform find coins",
+      "link": "https://github.com/Philliphades/lines-and-Circles-detection-hough",
+      "view":"",
+      "type":"dlg",
+      "btom":"",
+      "dest":"h113"
+   },
+   {
+      "id":3, 
+      "name":"Designing and building a Shoe Shop Website", 
+      "img": "assets/img/project-3.jpg",
+      "description": "Website selling shoes introduction information on shoe types, brands and allows customers to order online right on the website. Programming on technology ASP.Net MVC 4, Entity Framework, with SQL Server database",
+      "link":"https://github.com/Philliphades/Shell-Shoe",
+      "view":"",
+      "type":"web",
+      "btom":"",
+      "dest":"h113"
+   },
+   {
+      "id":4,
+       "name":"Personal CV/Resume Angular",
+       "img": "assets/img/project-4.jpg",
+       "description": "Design and developed by me. to Demonstrate my knowledge about angular and bootstrap",
+       "link":"",
+       "view":"",
+       "type":"web",
+       "btom":"k3",
+      "dest":"k2"
+   },
+   {
+      "id":5, 
+      "name":"Restaurant Management System", 
+      "img": "assets/img/project-5.jpg",
+      "description": "Design and developed by me. Restaurant management software system makes the management of the restaurant easier, convenient to save time, less costly in human and financial resources, and effectively supervises sales work. Maximum support functions for restaurant staff to use.",
+      "link":"",
+      "view":"",
+      "type":"app",
+      "btom":"",
+      "dest":""
+   },
+   {
+      "id":6, 
+      "name":"Chat app android", 
+      "img": "assets/img/project-6.jpg",
+      "description": "Design and developed by me. to Demonstrate my knowledge about Andriod programming. chat application with full features such as group chat, personal chat, sign up, sign in, notify, make friends ... only with Firebase's Realtime DB service.",
+      "link":"https://github.com/Philliphades/Chat-app-android",
+      "view":"",
+      "type":"mobi",
+      "btom":"",
+      "dest":"k2"
+   },
+   {
+      "id":7, 
+      "name":"HR Management System", 
+      "img": "assets/img/project-7.jpg",
+      "description": "Design and developed by me. Human resource management system is an information system used to collect, process, store, transmit and distribute information related to human resources in an organization to support decision-making.",
+      "link":"",
+      "view":"",
+      "type":"app",
+      "btom":"",
+      "dest":""
+   },
+   {
+      "id":8, 
+      "name":"Face recognition using Deeplearning", 
+      "img": "assets/img/project-8.jpg",
+      "description": "Face recognition is a computer vision task of identifying and verifying a person based on a photograph of their face. Face recognition is quite accurate using MTCNN and Facenet",
+      "link":"https://github.com/Philliphades/face-recognition-using-Deeplearning",
+      "view":"",
+      "type":"dlg",
+      "btom":"k2",
+      "dest":""
+   }
+]

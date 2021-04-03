@@ -1,0 +1,25 @@
+.mb-0{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size:18px;
+}
+.pb-2{
+    font-family: "cursive", sans-serif;
+    font-size:16px;
+    font-style: italic;
+    text-align: center;
+}
+.mb-1{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-weight: bold;
+    font-size:18px;
+    padding-top: 8px;
+    text-align: center;
+}
+.card-wizard .tab-content {
+    min-height: 300px;
+    padding: 20px 15px;
+}
+.card-category{
+    font-family: "sans-serif", cursive;
+  }

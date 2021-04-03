@@ -1,0 +1,119 @@
+@charset "UTF-8";
+
+.candidate-img-drawer {
+    height:123px;
+    width:123px;
+    border-radius:50%;
+    background-size:cover;
+    margin:0 auto;   
+}
+.candidate-name {
+    font-size:18px;
+    /* color:#000022; */
+    color:rgb(0 151 188);
+    text-transform:capitalize;
+    font-weight: bold;
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+.block {
+    display: block !important;
+}
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+.text-center {
+    text-align: center;
+}
+.mb-20 {
+    margin-left: auto; 
+}
+.img-center {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.mt-25 {
+    margin-top: 5px !important;
+    /* margin-left: auto; 
+    margin-right: auto; */
+}
+.social-icons {
+    /* text-align: center; */
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+ul {
+    list-style: none;
+    margin-left: auto; 
+    margin-right: auto;
+}
+.social-icons li {
+    display: inline-block;
+    padding: 0 7px;
+}
+a {
+    color: rgb(132 132 132);
+    text-decoration: none;
+}
+.social-icons li a i { 
+    color: rgb(132 132 132);
+    font-size: 20px;
+    transition: 0.3s ease;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s; 
+    
+}
+.social-icons li a.facebook-link:hover i {
+    color: rgb(59 89 152);
+}
+.social-icons li a.github-link:hover i {
+    color: rgb(248 248 255);
+}
+.social-icons li a.instagram-link:hover i {
+    color: rgb(63 114 155);
+}
+.social-icons li a.google-link:hover i {
+    color: rgb(205 38 38);
+}
+.social-icons li a.twitter-link:hover i {
+    color: rgb(0 178 238);
+}
+.zmdi {
+    display: inline-block;
+    font: normal normal normal 14px/1 'Material-Design-Iconic-Font';
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+.mdl-tooltip {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: top center;
+    transform-origin: top center;
+    z-index: 999;
+    background: rgb(97 97 97 / 90%);
+    border-radius: 2px;
+    color: rgb(255 255 255);
+    display: inline-block;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+    max-width: 170px;
+    position: fixed;
+    top: -500px;
+    left: -500px;
+    padding: 8px;
+    text-align: center;
+}
+.mdl-tooltip {
+    text-transform: capitalize;
+    background: rgb(68 68 68);
+    font-weight: 400;
+    font-size: 20px;
+}

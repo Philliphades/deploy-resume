@@ -1,0 +1,55 @@
+// @import "./assets/styles/variables.scss";
+$lutam-black: #000;
+$lutam-white: #fff;
+$lutam-blue: #3498db;
+$lutam-light-blue: #e9edef;
+
+$header-height: 3.5rem;
+$margin: 1rem;
+
+$main-font: 'Quicksand', serif;
+$bold-font: 'Montserrat', serif;
+.font{
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  // text-align: center;
+  margin: auto;
+}
+.c1{
+  font-family: 'Bevan' , sans-serif;  
+}
+#skills {
+  .row {
+    margin-top: 1rem;
+    margin-bottom: 25px;
+    .skill-title {
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      margin-top: 1rem;
+    }
+
+    .skill {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 2rem;
+
+      p {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        top: 170px;
+        font-size: 0.9rem;
+        &.outOfCircle{
+          bottom: -40px;
+          top: auto;
+        }
+      }
+
+      img {
+        position: absolute;
+      }
+    }
+  }
+}

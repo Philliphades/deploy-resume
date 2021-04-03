@@ -1,0 +1,13 @@
+.description,
+.card-description,
+.footer-big p {
+  color: #999999;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.card-title{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.card-category{
+  font-family: "sans-serif", cursive;
+}
+

@@ -1,0 +1,46 @@
+html{
+  overflow-x: hidden !important;
+}
+body{
+  background: $lutam-light-blue;
+  font-family: $main-font;
+  font-size: 16px;
+  overflow-x: hidden !important;
+
+  &.noscroll{
+    overflow: hidden;
+  }
+}
+
+.btn{
+  padding: 0.85rem;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: 200ms all ease-in-out;
+  &-blue{
+    background: $lutam-blue;
+    color: $lutam-white;
+    border: 1px solid $lutam-blue;
+    &:hover{
+      background: transparent;
+      color: $lutam-blue;
+    }
+  }
+}
+
+.bold{
+  font-weight: 900;
+  font-family: $bold-font;
+}
+
+
+.s-title{
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  @extend .bold;
+}

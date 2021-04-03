@@ -1,0 +1,13 @@
+.candidate-img-drawer {
+    height:120px;
+    width:120px;
+    border-radius:50%;
+    background-size:cover;
+    margin:0 auto;   
+}
+/* h3{font-family: 'Open Sans', sans-serif;
+    border-bottom: none;
+    color: rgb(51 51 51);
+    display: inline-block;
+    margin-bottom: 10px;
+} */

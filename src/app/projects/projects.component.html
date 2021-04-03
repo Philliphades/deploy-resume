@@ -1,0 +1,58 @@
+<div class="main-content">
+  <div class="container-fluid">
+    <div id="projects" class="filter">
+      <div class="row">
+        <div class="col-md-12 ml-auto mr-auto">
+            <!-- Filter -->
+            <div class="button-group filters-button-group">
+              <a class="button" (click)="showAll()"><span>SHOW ALL</span></a>
+              <a class="button" (click)="filterProjWeb()"><span>WED DEVELOPMENT</span></a>
+              <a class="button" (click)="filterProjApp()"><span>APPLICATION</span></a>
+              <a class="button" (click)="filterProjDLG()"><span>DEEP LEARNING</span></a>
+              <a class="button" (click)="filterProjMobi()"><span>MOBILE</span></a>
+            </div> <!-- end of button group -->        
+            <!-- <hr> -->          
+ 
+            <div class="row">
+              <div class="col-md-4 m1" *ngFor="let project of projects">
+                <div class="card card-product">
+                  <div class="card-header card-header-image" data-header-animation="true">
+                    <a href="#pablo">
+                      <img class="img" src={{project.img}}>
+                    </a>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-actions text-center">
+                      <button mat-raised-button type="button" class="btn btn-default btn-link" matTooltip="Read more..." [matTooltipPosition]="'below'">
+                        <i class="material-icons">info</i>
+                      </button>
+                      <!-- <button mat-raised-button type="button" class="btn btn-dribbble btn-link" matTooltip="View" [matTooltipPosition]="'below'">
+                        <i class="material-icons">art_track</i>
+                      </button> -->
+                      <button mat-raised-button type="button" class="btn btn-github btn-link" matTooltip="Github" [matTooltipPosition]="'below'">
+                        <a href="{{project.link}}" target="_blank"><i class="fa fa-github"></i></a>
+                      </button>                      
+                    </div>
+                    <h4 class="card-title k1 {{project.dest}}">
+                      <a href="#pablo"><span>{{project.name}}</span></a>
+                    </h4>
+                    <div class="card-description {{project.btom}}">
+                      <span>{{project.description}}</span>
+                    </div>
+                  </div>
+                  <div class="card-footer">
+                    <!-- <div class="price">
+                      <h4>$899/night</h4>
+                    </div>
+                    <div class="stats">
+                      <p class="card-category"><i class="material-icons">place</i> Barcelona, Spain</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>                      
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
